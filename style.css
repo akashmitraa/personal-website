@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+hr{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+.herobox-header{
+    background-color: #CDF5FD;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header-img img{
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header h1{
+    margin-top: 20px;
+}
+
+.affiliation{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.designation{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.designation h3{
+    font-family: Playfair Display;
+    font-weight: 300;
+}
+
+/* end of header */
+
+
+/* About me section */
+.about-me{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.about-me-head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me-head h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-me-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me-text h3{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Playfair Display;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    letter-spacing: 1.2px;
+}
+
+/* end of About me section */
+
+/* about section */
+
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.about-head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-head h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-text h3{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Playfair Display;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+}
+
+/* end of about section */
+
+/* Publication section */
+
+.publication{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.publication-head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.publication-head h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.publication-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.publication-text li{
+    padding: 5px;
+  
+}
+
+.publication-text li a{
+    text-decoration: none;
+    color: black;
+}
+
+.publication-text li a:hover{
+    text-decoration: none;
+    color: #00A9FF;
+    transition: 0.7s;
+}
+
+.google-scholar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.google-scholar a{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 28px;
+    color: white;
+    padding: 15px;
+    font-size: 0.8rem;
+}
+
+.google-scholar a:hover{
+    transition: 0.3s;
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+}
+
+/* end of publication */
+
+
+/* Contact section */
+.contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.contact a{
+    font-size: 1.7rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* footer section */
+
+.footer{
+    margin-bottom: 30px;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    font-size: 0.7rem;
+}
+
+.quote p em{
+    font-family: Playfair Display;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+
+.credit{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
