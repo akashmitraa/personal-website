@@ -94,6 +94,17 @@ hr{
     letter-spacing: 1.2px;
 }
 
+.about-me-text a{
+    text-decoration: none;
+    color: #00A9FF;
+}
+
+.about-me-text a:hover{
+    color: rgb(226, 124, 110);
+    transition: 0.3s;
+
+}
+
 /* end of About me section */
 
 /* about section */
