@@ -253,3 +253,39 @@ hr{
     justify-content: space-around;
     padding-top: 10px;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+
+    .herobox-header {
+        text-align: center;
+    }
+
+    .header-img img {
+        width: 100%; /* Make the image responsive */
+    }
+
+    .about-me-text h3 {
+        font-size: 16px;
+    }
+
+    .about-text h3 {
+        font-size: 16px;
+    }
+
+    .publication-text ol {
+        padding-left: 20px;
+    }
+
+    .contact a {
+        margin: 0 10px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
