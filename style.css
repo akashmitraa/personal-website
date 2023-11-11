@@ -67,6 +67,7 @@ hr{
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: white;
+    
 }
 
 .about-me-head{
@@ -82,6 +83,7 @@ hr{
 .about-me-text{
     display: flex;
     justify-content: space-around;
+    padding: 0 150px;
 }
 
 .about-me-text h3{
@@ -128,6 +130,7 @@ hr{
 .about-text{
     display: flex;
     justify-content: space-around;
+    padding: 0 150px;
 }
 
 .about-text h3{
@@ -167,7 +170,7 @@ hr{
 
 .publication-text li{
     padding: 5px;
-  
+    
 }
 
 .publication-text li a{
