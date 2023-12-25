@@ -269,7 +269,7 @@ hr{
     }
 
     .header-img img {
-        width: 100%; /* Make the image responsive */
+        width: 50%; /* Make the image responsive */
     }
 
     .about-me-text h3 {
