@@ -1,7 +1,7 @@
 body{
     font-family: Lato ;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 hr{
@@ -21,6 +21,12 @@ hr{
     line-height: 1.5;
   }
 
+mark{
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  margin: 0;
+  background-color: rgb(248, 246, 207);
+}
 
 
 .card{
