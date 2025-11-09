@@ -4,6 +4,17 @@ padding: 0;
 font-family: Playfair Display;
 }
 
+body {
+  background-image: url('images/white_bg.png'); /* path to your image */
+  background-size: cover; /* makes it fill the screen */
+  background-repeat: no-repeat; /* prevents tiling */
+  background-position: center; /* centers the image */
+  background-attachment: fixed; /* keeps it fixed during scroll */
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+}
 
 .header-img{
     height: 300px;
