@@ -1,30 +1,27 @@
 *{
-margin: 0;
-padding: 0;
-font-family: Playfair Display;
+  margin: 0;
+  padding: 0;
+  font-family: Playfair Display;
 }
 
 body {
   background-color: #EFEFEF;
 }
 
-/* .container {
-  background: rgba(255, 255, 255, 0.15);
-} */
-
 .header-img{
-    height: 300px;
-    width:300px;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
 }
 
 hr{
-    width: 70%;
+  width: 70%;
 }
 
 .phd-student{
-    margin-top: -22px;
+  margin-top: -22px;
 }
 
 .full-line{
-    width: 30%;
+  width: 30%;
 }
